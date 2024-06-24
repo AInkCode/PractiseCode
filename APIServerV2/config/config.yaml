@@ -1,0 +1,8 @@
+mysql:
+  host: 127.0.0.1
+  port: 13306
+  user: root
+  password: root1234
+  db: bluebell_pre
+  max_open_conns: 100
+  max_idle_conns: 20

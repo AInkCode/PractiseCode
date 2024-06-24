@@ -1,0 +1,13 @@
+server:
+  name: "menu-api"
+  addr: "127.0.0.1:80"
+zap:
+  debugFileName: "D:\\go\\menu\\project_ws\\logs\\debug\\menu-debug.log"
+  infoFileName: "D:\\go\\menu\\project_ws\\logs\\info\\menu-info.log"
+  warnFileName: "D:\\go\\menu\\project_ws\\logs\\error\\menu-error.log"
+  maxSize: 500,
+  maxAge: 28,
+  MaxBackups: 3
+etcd:
+  addrs:
+    - "127.0.0.1:2379"
